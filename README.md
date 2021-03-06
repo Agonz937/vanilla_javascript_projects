@@ -1,2 +1,2 @@
 # Vanilla Javascript Projects
-Are practice using purely javascripts
+Different projects using vanilla javascript
