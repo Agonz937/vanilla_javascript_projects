@@ -1,0 +1,62 @@
+<!-- Skeleton  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Possibly Remove -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body{
+                margin-top: 70px;
+                background: #333;
+                color: #fff;
+            }
+        </style>
+        <title>Title</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Row -->
+          <div class="row">
+              <!-- Column -->
+              <div class="col-md-6 offset-md-3">
+                  <!-- Heading -->
+                  <h1 class="display-4 text-center mb-4">Weight Converter</h1>
+                  <!-- Submit -->
+                  <form action="">
+                      <div class="form-group">
+                          <input type="number" id="lbsInput" class="form-control form-control-lg" placeholder="Enter Pounds...">
+                      </div>
+                  </form>
+                  <div id="output">
+                      <!-- Grams Output -->
+                      <div class="card bg-primary mb-2">
+                          <div class="card-block">
+                              <h1 class="card-title">Grams:</h1>
+                              <div id="gramsOutput"></div>
+                          </div>
+                      </div>
+                      <!-- Kilograms Output -->
+                      <div class="card bg-success mb-2">
+                        <div class="card-block">
+                            <h1 class="card-title">Kilograms:</h1>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+                      <!-- Ounces Output -->
+                    <div class="card bg-danger mb-2">
+                        <div class="card-block">
+                            <h1 class="card-title">Ounces:</h1>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                  </div>
+              </div> <!-- End of Column -->
+          </div>  <!-- End of Row -->
+        </div> <!-- End of Container -->
+        <script src="app.js"></script>
+    </body>
+</html>
