@@ -25,7 +25,7 @@ class UI {
             <td>${book.author}</td>
             <td>${book.isbn}</td>
             <td><a href="#" class="btn btn-danger btn-sm 
-            delete">X</a></td>
+            delete">remove</a></td>
         `;
 
         list.appendChild(row);
@@ -42,6 +42,7 @@ class UI {
         div.className = `alert alert-${className}`;
         div.appendChild(document.createTextNode(message))
 
+        // Display alter message between the title and book form
         const container = document.querySelector('.container');
         const form = document.querySelector('#book-form');
         container.insertBefore(div, form);
